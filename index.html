@@ -16,26 +16,23 @@
 </head>
 <body>
 <header>
-    <!--<a href="">Home</a>-->
-    <!--<a href="">Profile</a>-->
-    <!--<a href="">My Story</a>-->
-    <!--<a href="">Experiences</a>-->
-
-    <a href="https://www.linkedin.com/in/pouria-ghadimi/"
-       title="Click here to navigate to my Linkedin profile"><img src="img/Linkedin.png" width="30" height="30"></a>&nbsp;
-    <a href="https://github.com/Deadoraven" title="Click here to navigate to my github profile"><img
-        src="img/github.png" width="30" height="30"></a>&nbsp;
-    <a href="https://stackoverflow.com/users/9188930/pouria-ghadimi"
-       title="Click here to navigate to my Stack Over Flow profile"><img
-        src="img/stackoverflow.png" width="22"
-        height="30"></a>
+    <div>
+        <a href="https://www.linkedin.com/in/pouria-ghadimi/"
+           title="Click here to navigate to my Linkedin profile"><img src="img/Linkedin.png" width="30" height="30"></a>
+        <a href="https://github.com/Deadoraven" title="Click here to navigate to my github profile"><img
+            src="img/github.png" width="30" height="30"></a>
+        <a href="https://stackoverflow.com/users/9188930/pouria-ghadimi"
+           title="Click here to navigate to my Stack Over Flow profile"><img
+            src="img/stackoverflow.png" width="22"
+            height="30"></a>
+    </div>
 </header>
 
-<h1 >
+<h1>
     I'm Pouria
     <p>
         Software engineer
-            <small>& Full-Stack Developer</small>
+        <small>& Full-Stack Developer</small>
         <br>
         <img src="img/Pouria.JPG" alt="Pouria" height="350" width="270">
     </p>
@@ -44,12 +41,11 @@
 <br>
 <div id="profile">
     <div id="left-colomn">
-        <button>
-            <a href="/Resume-Pouria_Ghadimi.pdf" download>
-            </a>
-            Download Resume
-            <small>updated on October 2018</small>
-        </button>
+        <form method="get" action="Resume-Pouria_Ghadimi.pdf">
+            <button type="submit">Download Resume
+                <small>updated on October 2018</small>
+            </button>
+        </form>
     </div>
     <div id="right-colomn">
         <p>I'm Pouria Ghadimi recently graduated from University of Washington Bothell with a degree in Computer Science
@@ -65,7 +61,8 @@
     href="https://browsehappy.com/">upgrade
     your browser</a> to improve your experience and security.</p>
 <![endif]-->
-<h2><p>Here's a little background about me:</p></h2>
+<div id="story">
+    <h2><p>Here's a little background about me:</p></h2>
 
     <ul>
         <li>I love to develope web applications and work on games on my spare time.</li>
@@ -86,10 +83,12 @@
         </li>
         <li>HWSC is database platform for an oceanography research on humpback whales. We are developing a platform for
             marine biologists to upload and share the recorded sounds of Humpback whales around the globe.
-            <br> <a href="https://hwss.azurewebsites.net"
-                    title="Click here to navigate to Humpback Whale Social Call project's website">link to Humpback
+            <br><a href="https://hwss.azurewebsites.net"
+                   title="Click here to navigate to Humpback Whale Social Call project's website">link to Humpback
                 Whale Social Call<img src="img/HWSC.png" width="40" height="40" style="clear: right"></a></li>
     </ul>
+</div>
+
 
 
 <script src="js/vendor/modernizr-3.5.0.min.js"></script>

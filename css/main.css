@@ -42,18 +42,20 @@ h1 img{
     margin-left: auto;
     margin-right: auto;
 }
+
 header{
     display: block;
     margin-top: 0;
-    height: 50px;
+    height: 40px;
     background: #4D5F6D;
 }
 
-header a{
+header div a{
+    display: inline-block;
     float: right;
     margin-right: 30px;
-    margin-top: 10px;
 }
+
 /*
  * change the color of the links
  */
@@ -82,20 +84,7 @@ a {
 /*
  * Lists
  */
-ul, menu, dir {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
 
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
 
 /*
  * paragraphs
@@ -145,6 +134,40 @@ img {
     margin-right: 10%;
     margin-top: 5%;
     width: 250px;
+}
+#story{
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: #4D5F6D;
+    box-shadow: 0 0 5px 2px #70808D;
+    -moz-box-shadow: 0 0 5px 2px #70808D;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    outline: none;
+    padding: 5px;
+}
+
+#story h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul, menu, dir {
+    color: white;
+    font-family: Futura;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
 /*
