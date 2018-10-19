@@ -11,30 +11,74 @@
    ========================================================================== */
 
 html {
-    background: #d9d9d9;
+    background: #8898A5;
     color: #4b2e83;
     font-size: 1em;
     line-height: 1.4;
     font-family: sans-serif;
 }
 
-
-/*
- * change the color of the links
- */
-
-a {
-    color: #4b2e83;
-
+h1{
+    font-size: 80px;
+    color: #4D5F6D;
+    text-align: center;
 }
 
-a small {
-    font-size: 11px;
-    color: #777;
-    margin-top: -0.3em;
+h1 p{
+ font-size: 40px;
+}
+
+h1 small{
+    font-size: 20px;
+    margin-top: 0.3em;
     display: block;
 }
 
+h1 img{
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: block;
+    margin-top: 0;
+    height: 50px;
+    background: #4D5F6D;
+}
+
+header a{
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+/*
+ * change the color of the links
+ */
+button{
+    font-family: Futura;
+    border-color: #FB7400;
+    background: #FB7400;
+    height: 50px;
+    width: 200px;
+}
+button small {
+    font-size: 11px;
+    color: #777;
+    margin-top: 0.3em;
+    display: block;
+}
+/*
+ * everything related to a will be here
+ */
+a {
+    color: #4b2e83;
+}
+
+
+
+/*
+ * Lists
+ */
 ul, menu, dir {
     display: block;
     list-style-type: disc;
@@ -50,40 +94,54 @@ li {
     text-align: -webkit-match-parent;
 }
 
-p {
-    font-size: 1em;
-    line-height: 1.4;
-    font-family: sans-serif;
-    text-align: center;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+/*
+ * paragraphs
+ */
 
+
+/*
+ * images
+ */
 img {
+    margin-left: 40%;
+}
+
+
+#profile{
+    height: 300px;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: #4D5F6D;
+    box-shadow: 0 0 5px 2px #70808D;
+    -moz-box-shadow: 0 0 5px 2px #70808D;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    outline: none;
+    padding: 5px;
+}
+
+#profile p {
+    font-size: large;
+    color: white;
+    line-height: 1.4;
+    font-family: Futura;
+    text-align: justify;
+    display: block;
+    margin-top: 15%;
+}
+#profile #left-colomn {
+    float: left;
     margin-left: 10%;
+    margin-top: 15%;
+    width: 250px;
 }
 
-#side-bar {
-    width: 20%;
-    float: left;
-
-}
-
-#left-colomn {
-    float: left;
-    margin-left: 5%;
-    /*word-wrap: break-word;*/
-    width: 1000px;
-}
-
-#right-colomn {
+#profile #right-colomn {
     float: right;
-    margin-right: 20%;
-    word-wrap: break-word;
-    width: 500px;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 250px;
 }
 
 /*
