@@ -140,12 +140,16 @@ img {
 
 #profile button {
     font-family: Futura, sans-serif;
-    border-color: #FB7400;
+    border: none;
     background: #FB7400;
+    border-radius: 5%;
+    outline:none;
     height: 50px;
     width: 120%;
 }
-
+#profile button:hover {
+    background: #ffff00;
+}
 #profile button small {
     font-size: 65%;
     color: #777;
