@@ -170,6 +170,11 @@ li {
     text-align: -webkit-match-parent;
 }
 
+footer{
+    height: 40px;
+    color: #4D5F6D;
+    text-align: -webkit-center;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
