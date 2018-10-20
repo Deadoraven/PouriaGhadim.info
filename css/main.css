@@ -13,39 +13,38 @@
 html {
     background: #8898A5;
     color: #4b2e83;
-    font-size: 1em;
-    line-height: 1.4;
-    font-family: sans-serif;
+    font-family: Futura,sans-serif;
+
 }
 
 h1 {
     font-family: Futura, sans-serif;
-    font-size: 80px;
+    font-size: 400%;
     color: #4D5F6D;
     text-align: center;
     text-transform: uppercase;
 }
 
 h1 p {
-    font-size: 40px;
+    font-size: 60%;
 }
 
 h1 small {
     color: white;
-    font-size: 20px;
-    margin-top: 0.3em;
+    font-size: 60%;
+    margin-top: 0.01%;
     display: block;
 }
 
 h1 img {
-    border-radius: 25px;
+    border-radius:5%;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* Style the header */
 .header {
-    padding: 10px 16px;
+    padding: 1% 1%;
     background: #4D5F6D;
     color: #f1f1f1;
     align-content: center;
@@ -118,9 +117,7 @@ img {
     margin-right: 30%;
     background: #4D5F6D;
     box-shadow: 0 0 5px 2px #70808D;
-    -moz-box-shadow: 0 0 5px 2px #70808D;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    border-radius: 1%;
     outline: none;
     padding: 5px;
 }
@@ -128,7 +125,6 @@ img {
 #profile p {
     font-size: large;
     color: white;
-    line-height: 1.4;
     font-family: Futura, sans-serif;
     text-align: justify;
     display: block;
@@ -139,7 +135,7 @@ img {
     float: left;
     margin-left: 10%;
     margin-top: 15%;
-    width: 250px;
+    width: 25%;
 }
 
 #profile button {
@@ -147,11 +143,11 @@ img {
     border-color: #FB7400;
     background: #FB7400;
     height: 50px;
-    width: 200px;
+    width: 120%;
 }
 
 #profile button small {
-    font-size: 11px;
+    font-size: 65%;
     color: #777;
     margin-top: 0.3em;
     display: block;
@@ -161,7 +157,7 @@ img {
     float: right;
     margin-right: 10%;
     margin-top: 5%;
-    width: 250px;
+    width: 40%;
 }
 
 #story {
@@ -170,11 +166,9 @@ img {
     margin-right: 30%;
     background: #4D5F6D;
     box-shadow: 0 0 5px 2px #70808D;
-    -moz-box-shadow: 0 0 5px 2px #70808D;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    border-radius: 1%;
     outline: none;
-    padding: 5px;
+    padding: 1%;
 }
 
 #story h2 {
@@ -188,11 +182,6 @@ ul, menu, dir {
     font-family: Futura, sans-serif;
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 
 li {
@@ -201,7 +190,6 @@ li {
 }
 
 footer {
-    height: 40px;
     color: #4D5F6D;
     text-align: -webkit-center;
 }
