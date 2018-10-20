@@ -24,6 +24,13 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
+h2{
+    font-family: Futura, sans-serif;
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 h1 p {
     font-size: 60%;
@@ -82,7 +89,16 @@ a:hover{
 .center-btn {
     text-align: center
 }
-
+.box{
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: #4D5F6D;
+    box-shadow: 0 0 5px 2px #70808D;
+    border-radius: 1%;
+    outline: none;
+    padding: 1%;
+}
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
@@ -112,14 +128,6 @@ img {
 
 #profile {
     height: 300px;
-    display: block;
-    margin-left: 30%;
-    margin-right: 30%;
-    background: #4D5F6D;
-    box-shadow: 0 0 5px 2px #70808D;
-    border-radius: 1%;
-    outline: none;
-    padding: 5px;
 }
 
 #profile p {
@@ -147,6 +155,7 @@ img {
     height: 50px;
     width: 120%;
 }
+
 #profile button:hover {
     background: #ffff00;
 }
@@ -164,16 +173,6 @@ img {
     width: 40%;
 }
 
-#story {
-    display: block;
-    margin-left: 30%;
-    margin-right: 30%;
-    background: #4D5F6D;
-    box-shadow: 0 0 5px 2px #70808D;
-    border-radius: 1%;
-    outline: none;
-    padding: 1%;
-}
 
 #story h2 {
     color: white;
@@ -181,7 +180,7 @@ img {
     text-transform: uppercase;
 }
 
-ul, menu, dir {
+ul {
     color: white;
     font-family: Futura, sans-serif;
     display: block;
@@ -197,6 +196,19 @@ footer {
     color: #4D5F6D;
     text-align: -webkit-center;
 }
+
+#links button{
+    background: none;
+    border: none;
+    vertical-align: middle;
+    position: relative;
+}
+
+#links img{
+    height: 60px;
+    width: 60px;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
