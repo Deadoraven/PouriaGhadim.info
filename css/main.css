@@ -200,6 +200,7 @@ footer {
 #links button{
     background: none;
     border: none;
+    outline: none;
     vertical-align: middle;
     position: relative;
 }
