@@ -12,7 +12,7 @@
 
 html {
     background: #8898A5;
-    color: #4b2e83;
+    color: white;
     font-family: Futura,sans-serif;
 
 }
@@ -180,14 +180,14 @@ img {
     text-transform: uppercase;
 }
 
-ul {
+#story ul {
     color: white;
     font-family: Futura, sans-serif;
     display: block;
     list-style-type: disc;
 }
 
-li {
+#story li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
